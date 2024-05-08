@@ -81,3 +81,30 @@
     border-radius: 20px;
     transform: scale(1.5);
 }
+
+/* esercizio 10 */
+.ex-10-icon {
+    animation: rotation 1s linear 0s infinite reverse;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }  
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+} 
