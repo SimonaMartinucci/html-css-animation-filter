@@ -52,3 +52,11 @@
     filter: grayscale(1);
 }
 
+/* esercizio 7 */
+.ex-7-img {
+    transition: all 2s ease-in-out;
+}
+
+.ex-7-img:hover {
+    filter: sepia(1) blur(3px);
+}
