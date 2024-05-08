@@ -108,3 +108,31 @@
         transform: rotate(360deg);
     }
 } 
+
+/* esercizio 11 */
+.ex-11-icon:hover {
+    animation: not-full-rot 2s linear 0s 1;
+}
+
+@keyframes not-full-rot {
+    0% {
+        transform: rotate(0);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(320deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+    
+}
