@@ -1,8 +1,17 @@
-/* regole esercizio 1 */
+/* esercizio 1 */
 .ex-1-square {
     transition: all 1s linear;
 }
 
 .ex-1-square:hover {
     background-color: red;
+}
+
+/* esercizio 2 */
+.well .ex-2-square {
+    transition: all 3s ease;
+}
+
+.well:active .ex-2-square {
+    width: 100%;
 }
